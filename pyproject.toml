@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphormer_pyg"
+version = "0.1.0"
+description = "PyTorch Geometric implementation of Graphormer"
+authors = [
+    { name="leffff", email="abc@de.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "torch",
+    "torch-geometric",
+    "numpy",
+    "scipy",
+    "tqdm"
+]
