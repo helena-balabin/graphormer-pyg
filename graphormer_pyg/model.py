@@ -4,7 +4,7 @@ import torch
 from torch import nn
 from torch_geometric.data import Data
 
-from graphormer.layers import GraphormerEncoderLayer, CentralityEncoding, SpatialEncoding
+from graphormer_pyg.layers import GraphormerEncoderLayer, CentralityEncoding, SpatialEncoding
 
 
 class Graphormer(nn.Module):

@@ -7,8 +7,8 @@ from tqdm import tqdm
 from torch_geometric.nn.pool import global_mean_pool
 
 from torch import nn
-from graphormer.model import Graphormer
-from graphormer.functional import precalculate_custom_attributes, precalculate_paths
+from graphormer_pyg.model import Graphormer
+from graphormer_pyg.functional import precalculate_custom_attributes, precalculate_paths
 
 import time
 

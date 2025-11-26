@@ -8,7 +8,7 @@ import torch
 from torch_geometric.data import Data
 from torch_geometric.utils.convert import to_networkx
 from torch_geometric.utils import degree
-from graphormer.utils import decrease_to_max_value
+from graphormer_pyg.utils import decrease_to_max_value
 
 
 def floyd_warshall_source_to_all(G, source, cutoff=None):
